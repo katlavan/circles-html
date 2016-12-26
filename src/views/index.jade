@@ -2,6 +2,12 @@ doctype html
 html.no-js(lang='')
   include partials/head
   body
-    p= circles.pokak.head
+    .title-wrapper
+      .background
+      span.title= title
+    .circles-wrapper
+      each circle in circles
+        include partials/card
+
 
     script(src='javascript/application.js')

@@ -12,6 +12,9 @@ var cleanCss = require('gulp-clean-css');
 var babel = require('gulp-babel');
 var uglify = require('gulp-uglify');
 var jade = require('gulp-jade');
+var clean = require('gulp-clean');
+var imageMin = require('gulp-imagemin');
+var cache = require('gulp-cache');
 
 
 gulp.task('stylus',function(){
@@ -67,18 +70,18 @@ gulp.task('jade',function(){
 
 gulp.task('image',function(){
   gulp.src(['src/images/**/*'])
-    .pipe(plumber({
-      handleError: function (err) {
-        console.log(err);
-        this.emit('end');
-      }
-    }))
-    .pipe(cache(imageMin()))
+    .pipe(imageMin())
     .pipe(gulp.dest('dist/images'))
-    .pipe(reload())
 });
 
-gulp.task('default',function(){
+gulp.task('clean', function () {
+  return gulp.src('./dist', {read: false})
+    .pipe(clean());
+});
+
+gulp.task('build', ['clean', 'babel', 'stylus', 'jade']);
+
+gulp.task('default', function(){
   browserSync.init({
     server: {
       baseDir: "./dist"

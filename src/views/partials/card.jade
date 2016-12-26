@@ -1,0 +1,13 @@
+.circle-card
+  .circle-title.clearfix
+    img(src="#{circle.logo}" class='logo')
+    .title= circle.title
+  .list-wrapper
+    .head-header
+      .title= circle.head
+      .role Head of circle
+
+    ul.list
+      each developer in circle.devs
+        li=developer
+

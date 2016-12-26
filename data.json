@@ -3,18 +3,35 @@
   "circles": {
     "pokak": {
       "title": "Pokak",
+      "logo": "images/logo-placeholder.jpg",
       "head": "Aleksey",
-      "devs": ["Aleksey Chernov", "Maksym Khuhrianslyi"]
+      "devs": ["Aleksey Chernov", "Maksym Khuhrianslyi", "Developer Petro", "Developer Petro"]
     },
     "no-rush": {
       "title": "No Rush",
+      "logo": "images/logo-placeholder.jpg",
       "head": "Dmitriy Savin",
-      "devs": ["Dmitriy Savin", "Ilya Tsikunov"]
+      "devs": ["Dmitriy Savin", "Ilya Tsikunov", "Developer Petro", "Developer Petro"]
     },
     "boka": {
       "title": "Бокахуяр",
+      "logo": "images/logo-placeholder.jpg",
       "head": "Maksim",
-      "devs": ["Maksim Katkov", "Vasyl Yaremkiv"]
+      "devs": ["Maksim Katkov", "Vasyl Yaremkiv", "Developer Petro", "Developer Petro"]
+    },
+    "circle": {
+      "title": "Antoher circle",
+      "logo": "images/logo-placeholder.jpg",
+      "head": "Petro",
+      "devs": ["Maksim Katkov", "Vasyl Yaremkiv", "Developer Petro", "Developer Petro"]
+    },
+    "qa": {
+      "title": "QA rangers",
+      "logo": "images/logo-placeholder.jpg",
+      "head": "Elena",
+      "devs": ["Ivan Kostovskiy", "Sergey Cherenkov"]
     }
+
+
   }
 }
