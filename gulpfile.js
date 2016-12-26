@@ -79,7 +79,7 @@ gulp.task('clean', function () {
     .pipe(clean());
 });
 
-gulp.task('build', ['clean', 'babel', 'stylus', 'jade']);
+gulp.task('build', ['clean', 'babel', 'stylus', 'jade', 'image']);
 
 gulp.task('default', function(){
   browserSync.init({
