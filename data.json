@@ -1,0 +1,20 @@
+{
+  "title": "OA Circles",
+  "circles": {
+    "pokak": {
+      "title": "Pokak",
+      "head": "Aleksey",
+      "devs": ["Aleksey Chernov", "Maksym Khuhrianslyi"]
+    },
+    "no-rush": {
+      "title": "No Rush",
+      "head": "Dmitriy Savin",
+      "devs": ["Dmitriy Savin", "Ilya Tsikunov"]
+    },
+    "boka": {
+      "title": "Бокахуяр",
+      "head": "Maksim",
+      "devs": ["Maksim Katkov", "Vasyl Yaremkiv"]
+    }
+  }
+}

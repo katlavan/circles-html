@@ -1,0 +1,28 @@
+{
+  "name": "jt-oa-circle",
+  "version": "1.0.0",
+  "description": "Oa circles",
+  "author": "katalvan",
+  "url": "",
+  "license": "MIT License",
+  "keywords": "",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.18.0",
+    "browser-sync": "*",
+    "es6-promise": "*",
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-babel": "*",
+    "gulp-cache": "*",
+    "gulp-clean-css": "*",
+    "gulp-csscomb": "*",
+    "gulp-data": "^1.2.1",
+    "gulp-imagemin": "*",
+    "gulp-jade": "*",
+    "gulp-merge-media-queries": "*",
+    "gulp-plumber": "*",
+    "gulp-rename": "*",
+    "gulp-stylus": "*",
+    "gulp-uglify": "*"
+  }
+}
