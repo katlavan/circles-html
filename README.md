@@ -2,7 +2,6 @@
 To setup project:
 
 - npm install
-- npm build
 - gulp build
 - gulp
 
