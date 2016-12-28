@@ -9,4 +9,4 @@ To setup project:
 ## Make changes
 Please add information into `./data.json`
 
-## Demo page - katalvan.github.io/circles-html
+## Demo page - http://jt-circles.surge.sh/
