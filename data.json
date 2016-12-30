@@ -4,32 +4,32 @@
     "pokak": {
       "title": "Pokak",
       "logo": "images/logo-placeholder.jpg",
-      "head": "Aleksey",
-      "devs": ["Aleksey Chernov", "Maksym Khuhrianslyi", "Developer Petro", "Developer Petro"]
+      "head": "Aleksey Chernov",
+      "devs": ["Aleksey Chernov", "Maksym Khuhrianslyi", "Andrii Yakushev", "Ilya Tsykunov"]
     },
     "no-rush": {
       "title": "No Rush",
       "logo": "images/logo-placeholder.jpg",
       "head": "Dmitriy Savin",
-      "devs": ["Dmitriy Savin", "Ilya Tsikunov", "Developer Petro", "Developer Petro"]
+      "devs": ["Dmitriy Savin", "Sergey Riabov"]
     },
     "boka": {
       "title": "Бокахуяр",
-      "logo": "images/logo-placeholder.jpg",
+      "logo": "images/bokahuyar.png",
       "head": "Maksim",
-      "devs": ["Maksim Katkov", "Vasyl Yaremkiv", "Developer Petro", "Developer Petro"]
+      "devs": ["Maksim Katkov", "Vasyl Yaremkiv"]
     },
-    "circle": {
-      "title": "Antoher circle",
+    "nv": {
+      "title": "NV",
       "logo": "images/logo-placeholder.jpg",
-      "head": "Petro",
-      "devs": ["Maksim Katkov", "Vasyl Yaremkiv", "Developer Petro", "Developer Petro"]
+      "head": "Sviatoslav Medvid",
+      "devs": ["Sviatoslav Medvid","Ostap Bochulia", "Oleksandr Chornodid", "Roman Kuznietsov"]
     },
-    "qa": {
-      "title": "QA rangers",
-      "logo": "images/logo-placeholder.jpg",
-      "head": "Elena",
-      "devs": ["Ivan Kostovskiy", "Sergey Cherenkov"]
+    "4e3o": {
+      "title": "4e3o",
+      "logo": "images/4e3o.png",
+      "head": "Igor Kirichenko",
+      "devs": ["Igor Kirichenko", "Elena Mironova", "Ivan Kostovskiy", "Sergey Cherenkov"]
     }
 
 
